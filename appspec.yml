@@ -8,6 +8,8 @@ files:
 permissions:
   - object: /var/www/html
     pattern: index.html
+    owner: apache
+    group: apache
     mode: 755
     type:
       - file
