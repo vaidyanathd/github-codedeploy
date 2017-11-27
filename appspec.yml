@@ -4,6 +4,7 @@ os: linux
 files:
   - source: files/index.html
     destination: /var/www/html
+    overwrite: true
 
 permissions:
   - object: /var/www/html
